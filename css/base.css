@@ -1,0 +1,36 @@
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: table;
+	overflow: hidden;
+}
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+h2 {
+	color: #222;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 75px;
+	text-transform: uppercase;
+}
+h3 {
+	color: #777;
+	font-family: DroidSerif;
+	font-size: 16px;
+	font-style: italic;
+}
+h4 {
+	color: #222;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 75px;
+}
+h5 {
+	color: #777;
+	font-family: RobotoSlab;
+	font-size: 14px;
+	font-weight: 400;
