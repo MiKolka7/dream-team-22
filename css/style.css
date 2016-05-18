@@ -9,10 +9,11 @@
 .header {
 	background: url(../pic/bg.png) 50%;
     background-size: cover;
+    padding-bottom: 160px;
 }
 .menu {
 	float: right;
-	padding: 0 5%;
+	padding: 3% 10%;
 }
 .menu-item {
 	width: 72px;
@@ -32,7 +33,7 @@
 	font-family: Wisdom;
 	font-size: 26px;
 	line-height: 41px;
-	padding: 0 12%;
+	padding: 3% 12%;
 }
 .block-title {
 	text-align: center;
@@ -58,4 +59,70 @@
 	height: 65px;
 	background-color: #fed136;
 	border-radius: 2px;
+	margin: auto;
+}
+.text-button {
+	height: 14px;
+	color: white;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 10%;
+}
+.title-block2 {
+	text-align: center;
+	margin-top: 7%;
+	margin-bottom: 7%;
+}
+.subtitle-block2 {
+	font-size: 16px;
+	font-family: DroidSerif;
+	font-style: italic;
+}
+h1 {
+	color: #222;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 75px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.service {
+	padding-bottom: 25%;
+}
+.service-img {
+	width: 72px;
+	height: 72px;
+	background-color: white;
+	border: 3px solid #fed136;
+	margin-bottom: 26px ;
+	text-align: center;
+	margin-left: 25%;
+}
+.row {
+	margin: 0 2%;
+}
+.col {
+	width: 27%;
+	float: left;
+	margin: 0 3%;
+    box-sizing: border-box;
+}
+.subtitle-icon {
+	color: #222;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 75px;
+	margin-left: 25%;
+}
+.text-block2 {
+	width: 274px;
+	height: 57px;
+	color: #777;
+	font-family: RobotoSlab;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
 }
