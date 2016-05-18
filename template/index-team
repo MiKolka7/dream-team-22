@@ -51,15 +51,38 @@
 		<div  class="team__text">
 			<p>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt proin iaculis.</p>
 		</div>
-<!-- 		<div class="team__logotypes">
-		<p>
+		<div class="team__logotypes">
 			<img class="team__logotypes__item" src="../pic/envato.png" alt="">
 			<img class="team__logotypes__item" src="../pic/wordpress.png" alt="">
 			<img class="team__logotypes__item" src="../pic/tuts.png" alt="">
 			<img class="team__logotypes__item" src="../pic/microlancer-copy.png" alt="">
-		</p>
 		</div>
- --></section>
+</section>
+	<section class="contact">
+		<div class="container">
+			<div class="contact__top clearfix">
+				<p class="contact__top__h2">Contact us</p>
+				<h3>Proin iaculis purus consequat sem cure</h3>
+				<div class="contact__form clearfix">
+					<div class="contact__form__col1">
+						<input type="text" name="your Name *" placeholder="your Name *" id="contact__form__col1__item">
+						<input type="text" name="your Name *" placeholder="your Name *" id="contact__form__col1__item" >
+						<input type="text" name="your Name *" placeholder="your Name *" id="contact__form__col1__item">
+					</div>
+					<div class="contact__form__col2">
+						<input type="text" name="your Name *" placeholder="your Name *" id="contact__form__col2__item">
+					</div>
+				</div>
+				<div class="button"><p>Send Message</p></div>
+			</div>
+		</div>
+		<img class="contact__map" src="../img/map-image.png" alt="">
+		<figure class="contact__bg">
+		</figure>
 
+	</section>
+	<div class="footer">
+		<p>© Copyright 2014 FreebiesXpress.com</p>
+	</div>
 </body>
 </html>

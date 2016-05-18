@@ -24,8 +24,8 @@ h3 {
 	font-style: italic;
 }
 .team {
-	height: 818px;
-	background-color: #999;
+/* 	height: 818px;
+ */	background-color: #f9f9f9;
 	text-align: center;
 	padding-top: 120px;
 }
@@ -82,21 +82,112 @@ h3 {
 	font-weight: 400;
 	line-height: 25px;
 }
-/* .team__logotypes {
-	display: inline-block;
+.team__logotypes {
 	margin: 0 auto;
- 	float: left;
- 	line-height: 42px;
+	padding:  178px 0 61px 0;
 }
-.team__logotypes__item img {
-	height: 42px;
+.team__logotypes img {
+	display: block;
 	width: auto;
-	margin: 0 20px 0 20px;
-} */
+    height: 42px;
+    display: inline;
+    margin: 0 1rem 1rem 0;
+}
 
 
 
 .contact {
 	height: 676px;
 	background-color: #222;
+	text-align: center;
+	padding-top: 120px;
+}
+.contact__top {
+	position: absolute;
+	width: 940px;
+	margin: 0 auto;
+
+/* 	top: 59px;
+	left: 89px;
+	right: 57px;
+ */}
+ .contact__top__h2 {
+	color: white;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 75px;
+	text-transform: uppercase;
+ }
+ .contact__map {
+	position: absolute;
+	width: 614px;
+	opacity: 0.3;
+	float: right;
+	
+ }
+ .contact__bg {
+	background-color: #222;
+ }
+.contact__form {
+	margin-top: 75px;
+}
+.contact__form__col1 {
+	width: 50%;
+	float: left;
+}
+.contact__form__col2 {
+	width: 50%;
+	float: left;
+ }
+ #contact__form__col1__item {
+	width: 437px;
+	height: 50px;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 1px;
+	margin:0 30px 30px 0;
+}
+ #contact__form__col2__item {
+	width: 437px;
+	height: 214px;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 1px;
+	margin:0 0 30px 0;
+	float: right;
+}
+input {
+	width: 437px;
+	height: 222px;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 1px;
+	color: #bbb;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-left: 20px;	
+}
+.button {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 240px;
+	background-color: #fed136;
+	border-radius: 2px;
+
+	color: white;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 65px;
+}
+.footer {
+	width: 100%;
+	height: 90px;
+	background-color: white;
+	margin-bottom: 0;
 }
