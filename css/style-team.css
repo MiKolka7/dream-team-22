@@ -1,0 +1,102 @@
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: table;
+	overflow: hidden;
+	}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+h2 {
+	color: #222;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 75px;
+	text-transform: uppercase;
+}
+h3 {
+	color: #777;
+	font-family: DroidSerif;
+	font-size: 16px;
+	font-style: italic;
+}
+.team {
+	height: 818px;
+	background-color: #999;
+	text-align: center;
+	padding-top: 120px;
+}
+.team__photo {
+	margin: 76px 0 26px 0;
+}
+.team__photo__item {
+	position: relative;
+	width: 234px;
+	float: left;
+	margin: 23px ;
+}
+.team__photo__item__img {
+	border: 7px solid white;
+	border-radius: 100%;
+}
+.team__photo__name {
+	color: #222;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 50px;
+}
+.team__photo__position {
+	color: #777;
+	font-family: RobotoSlab;
+	font-size: 14px;
+	font-weight: 400;
+}
+.social__icon {
+/* 	width: 113px;
+ */	display: inline-block;
+	vertical-align: middle;
+	margin-top: 14px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+.social__icon img {
+	width: 20px;
+	border: 3px solid #222;
+	border-radius: 100%;
+	padding: 7px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.team__text {
+	width: 600px;
+	margin: 0 auto;
+}
+.team__text p {
+	color: #777;
+	font-family: RobotoSlab;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+}
+/* .team__logotypes {
+	display: inline-block;
+	margin: 0 auto;
+ 	float: left;
+ 	line-height: 42px;
+}
+.team__logotypes__item img {
+	height: 42px;
+	width: auto;
+	margin: 0 20px 0 20px;
+} */
+
+
+
+.contact {
+	height: 676px;
+	background-color: #222;
+}

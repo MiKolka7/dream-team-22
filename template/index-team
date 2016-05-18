@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our team</title>
+    <link rel="stylesheet" href="../css/reset.css">
+<!--     <link rel="stylesheet" href="css/base.css">
+ -->    <link rel="stylesheet" href="../css/style-team.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<section class="team">
+		<div class="container">
+			<h2>our amazing team</h2>
+			<h3>Proin iaculis purus consequat sem cure</h3>
+			<ul class="team__photo clearfix">
+				<li class="team__photo__item">
+					<img src="../img/photo-1.jpg" alt="" class="team__photo__item__img">
+					<p class="team__photo__name">Kimberly Thompson</p>
+					<p class="team__photo__position">Marketer</p>
+					<div class="social__icon">
+						<a href=""><img src="../pic/icon-black-t.png" alt=""></a>
+						<a href=""><img src="../pic/icon-black-f.png" alt=""></a>
+						<a href=""><img src="../pic/icon-black-p.png" alt=""></a>
+					</div>
+				</li>
+				<li class="team__photo__item">
+					<img src="../img/photo-2.jpg" alt="" class="team__photo__item__img">
+					<p class="team__photo__name">Rico Massimo</p>
+					<p class="team__photo__position">Coder</p>
+					<div class="social__icon">
+						<a href=""><img src="../pic/icon-black-t.png" alt=""></a>
+						<a href=""><img src="../pic/icon-black-f.png" alt=""></a>
+						<a href=""><img src="../pic/icon-black-g.png" alt=""></a>
+					</div>
+
+				</li>
+				<li class="team__photo__item">
+					<img src="../img/photo-3.jpg" alt="" class="team__photo__item__img">
+					<p class="team__photo__name">Uku Mason</p>
+					<p class="team__photo__position">Graphic Designer</p>
+					<div class="social__icon">
+						<a href=""><img src="../pic/icon-black-f.png" alt=""></a>
+						<a href=""><img src="../pic/icon-black-p.png" alt=""></a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div  class="team__text">
+			<p>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt proin iaculis.</p>
+		</div>
+<!-- 		<div class="team__logotypes">
+		<p>
+			<img class="team__logotypes__item" src="../pic/envato.png" alt="">
+			<img class="team__logotypes__item" src="../pic/wordpress.png" alt="">
+			<img class="team__logotypes__item" src="../pic/tuts.png" alt="">
+			<img class="team__logotypes__item" src="../pic/microlancer-copy.png" alt="">
+		</p>
+		</div>
+ --></section>
+
+</body>
+</html>
