@@ -79,10 +79,21 @@
 		<img class="contact__map" src="../img/map-image.png" alt="">
 		<figure class="contact__bg">
 		</figure>
-
 	</section>
-	<div class="footer">
-		<p>© Copyright 2014 FreebiesXpress.com</p>
-	</div>
+	<section class="footer-bg">
+		<div class="container">
+			<div class="footer">
+			<p class="copy">© Copyright 2014 FreebiesXpress.com</p>
+			</div>
+			<div class="social">
+                <img src="../pic/icon-white-t.png" alt="" class="social-item">
+                <img src="../pic/icon-white-f.png" alt="" class="social-item">
+                <img src="../pic/icon-white-p.png" alt="" class="social-item">
+                <img src="../pic/icon-white-g.png" alt="" class="social-item">
+			</div>
+		</div>
+	</section>
 </body>
 </html>
+
+
