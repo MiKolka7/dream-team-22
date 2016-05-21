@@ -1,0 +1,111 @@
+.portfolio {
+	background: #f7f7f7;
+}
+.title {
+	color: #222;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: inherit;
+}
+.sub-title {
+	color: #777;
+	font-family: DroidSerif;
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
+	line-height: inherit;
+	padding: 19px 0 80px 0;
+}
+.container {
+	padding: 9% 17%;
+}
+.gallery {
+	margin: 0 -2%;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	display: list-item;
+}
+img {
+	width: 100%;
+}
+.gallery-item {
+	width: ;
+	position: relative;
+	float: left;
+	margin: 0 17px 50px;
+	background-color: white;
+}
+.gallery-item-content {
+	height: 91px;
+}
+.gallery-item-content h4 {
+	height: 18px;
+	color: #333;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 28px;
+	line-height: normal;
+}
+.gallery-item-content p {
+	height: 15px;
+	color: #737373;
+	font-family: DroidSerif;
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+	padding: 4px 0 30px;
+}
+.gallery-item-text {
+	/* padding-top: 28px; */
+}
+.about {
+	background: #FFF;
+}
+.about-us {
+	margin: 0 -2%;
+}
+.stories {
+	
+}
+.stories-content {	
+	width: 56%;
+	height: 170px;
+	padding: 6px 0 0 0;
+}
+.stories-content h5 {
+	float: right;
+	color: #222;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.stories-content p {
+	float: right;
+	color: #777;
+	font-family: RobotoSlab;
+	font-size: 14px;
+	font-weight: 400;
+}
+.stories-content img {
+	float: right;
+}
+.img-story {
+	
+}
+
+/* ::after {
+	content: "";
+	width: 2px;
+	height: 100%;
+	background: #000;
+	
+} */
