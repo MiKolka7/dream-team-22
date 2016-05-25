@@ -10,20 +10,20 @@
 	text-align: center;
 	line-height: inherit;
 }
-.sub-title {
+.sub__title {
 	color: #777;
 	font-family: DroidSerif;
 	font-size: 16px;
 	font-style: italic;
 	text-align: center;
 	line-height: inherit;
-	padding: 19px 0 80px 0;
+	padding: 1.55% 0 6.56% 0;
 }
 .container {
 	padding: 9% 17%;
 }
 .gallery {
-	margin: 0 -2%;
+	margin: 0 -2.1%;
 }
 ul {
 	list-style-type: none;
@@ -34,73 +34,105 @@ li {
 img {
 	width: 100%;
 }
-.gallery-item {
-	width: ;
+.gallery__item {
 	position: relative;
 	float: left;
-	margin: 0 17px 50px;
+	margin: 0 1.8% 5.8%;
 	background-color: white;
 }
-.gallery-item-content {
-	height: 91px;
+.gallery__item__content {
+	/* height: 91px; */
 }
-.gallery-item-content h4 {
+.gallery__item__content h4 {
 	height: 18px;
 	color: #333;
 	font-family: Montserrat;
 	font-size: 18px;
 	font-weight: 700;
 	text-align: center;
-	padding-top: 28px;
+	padding-top: 6.87%;
 	line-height: normal;
 }
-.gallery-item-content p {
+.gallery__item__content p {
 	height: 15px;
 	color: #737373;
 	font-family: DroidSerif;
 	font-size: 14px;
 	font-style: italic;
 	text-align: center;
-	padding: 4px 0 30px;
+	padding: 1.02% 0 6.87%;
 }
-.gallery-item-text {
+.gallery__item__text {
 	/* padding-top: 28px; */
 }
 .about {
 	background: #FFF;
 }
-.about-us {
+.about__us {
 	margin: 0 -2%;
 }
 .stories {
-	
+	margin: 0 auto;
 }
-.stories-content {	
-	width: 56%;
-	height: 170px;
-	padding: 6px 0 0 0;
+.stories__content {	
+	/* width: 56.17%; */
+	clear: both;
+	/* float: left;	 */
 }
-.stories-content h5 {
+.stories__content:nth-of-type(2n),
+.stories__content:nth-of-type(2n+1) {
+	padding: 7.06% 0 0 0;
+}
+.stories__content:nth-of-type(2n) {
+	padding: 7.06% 0 0 0;
+}
+.stories__text {
+	width: 32.66%;
+	float: left;
+	margin: 0 0 0 3.51%;
+}
+.stories__content:nth-of-type(2n) .stories__text {
 	float: right;
+	margin: 0 3.51% 0 0;
+}
+.stories__text h5,
+.stories__text h6 {
+	text-align: right;
 	color: #222;
 	font-family: Montserrat;
 	font-size: 18px;
 	font-weight: 700;
+}
+.stories__text h5 {
 	text-transform: uppercase;
 }
-.stories-content p {
-	float: right;
+.stories__content:nth-of-type(2n) .stories__text h5,
+.stories__content:nth-of-type(2n) .stories__text h6,
+.stories__content:nth-of-type(2n) .stories__text p {
+	text-align: left;
+}
+.stories__text p {
+	padding: 3.8% 0;
+	text-align: right;
 	color: #777;
 	font-family: RobotoSlab;
 	font-size: 14px;
 	font-weight: 400;
 }
-.stories-content img {
+.stories__img {
+    width: 19.36%;
+    float: left;
+    margin: 0 4.15%;
+}
+.stories__content:nth-of-type(2n) .stories__img {
 	float: right;
 }
-.img-story {
-	
+.stories__continue {
+	width: 19.36%;
+    margin: 0 auto;
 }
+
+
 
 /* ::after {
 	content: "";
@@ -108,4 +140,4 @@ img {
 	height: 100%;
 	background: #000;
 	
-} */
+} example for vertical-img line */
