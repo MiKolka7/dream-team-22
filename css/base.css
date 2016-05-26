@@ -70,7 +70,7 @@ h3 {
 	font-family: DroidSerif;
 	font-size: 40px;
 	font-style: italic;
-	padding: 2%;
+	padding-top: 2%;
 }
 .title2 {
 	color: white;
@@ -147,73 +147,10 @@ h3 {
 	text-align: center;
 } */
 
-
-.about {
-	text-align: center;
-	height: 1260px;
-	padding-top: 120px;
-}
-.about__block {
-	width: 940px;
-	height: 182px;
-/* 	float: left;
- */	margin: 50px;
- 	margin-left: -10px;
-}
-.about__block__left__img {
-	position: relative;
-	width: 180px;
-	margin: 0 auto;
-}
-.about__block__left__img img {
-	border: 7px solid white;
-	border-radius: 100%;
-}
-.about__block__left__text{
-	position: absolute;
-	width: 307px;
-	text-align: right;
-	margin: 20px 40px;
-}
-.about__block__right__text {
-	position: absolute;
-	width: 307px;
-	text-align: left;
-	margin: 20px 600px;
-}
-.about__block__title1 {
-	color: #222;
-	font-family: Montserrat;
-	font-size: 18px;
-	font-weight: 700;
-	line-height: 25px;
-	text-transform: uppercase;
-}
-.about__block__title2 {
-	color: #222;
-	font-family: Montserrat;
-	font-size: 18px;
-	font-weight: 700;
-	line-height: 25px;
-
-}
-.about__block__title3 {
-	color: #777;
-	font-family: RobotoSlab;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 15px;
-	padding-top: 15px;
-}
-
-
-
 .services {
 	text-align: center;
-	padding-top: 120px;
+	padding-top: 102.5px;
 }
-
-
 .services__icon {
 	position: relative;
 	display: block;
@@ -221,16 +158,12 @@ h3 {
 	margin: 76px 0 118px 0;
 }
 .services__icon__item {
-	position: relative;
 	width: 33%;
 	float: left;
 }
 .services__icon__item__img {
 	width: 72px;
-/* 	border: 3px solid #fed136;
-	border-radius: 100%;
-	padding: 13px;
- */}
+}
 .services__icon__title1 {
 	color: #222;
 	font-family: Montserrat;
@@ -248,20 +181,163 @@ h3 {
 
 }
 
+.portfolio {
+	padding: 9% 17%;
+	background: #f7f7f7;
+}
+.title {
+	color: #222;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: inherit;
+}
+.sub__title {
+	color: #777;
+	font-family: DroidSerif;
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
+	line-height: inherit;
+	padding: 1.55% 0 6.56% 0;
+}/* 
+.wrapper {
+	padding: 9% 17%;
+} */
+.gallery {
+	margin: 0 -2.1%;
+}
+.gallery ul {
+	list-style-type: none;
+}
+.gallery li {
+	display: list-item;
+}
+.gallery img {
+	width: 100%;
+}
+.gallery__item {
+	position: relative;
+	float: left;
+	margin: 0 1.8% 5.8%;
+	background-color: white;
+}
+.gallery__item__content {
+	/* height: 91px; */
+}
+.gallery__item__content h4 {
+	height: 18px;
+	color: #333;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 6.87%;
+	line-height: normal;
+}
+.gallery__item__content p {
+	height: 15px;
+	color: #737373;
+	font-family: DroidSerif;
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+	padding: 1.02% 0 6.87%;
+}
+.gallery__item__text {
+	/* padding-top: 28px; */
+}
+.about {
+	padding: 9% 17%;
+	background: #FFF;
+}
+.about__us {
+	margin: 0 -2%;
+}
+.stories {
+	margin: 0 auto;
+}
+.stories__content {	
+	/* width: 56.17%; */
+	clear: both;
+	/* float: left;	 */
+}
+.stories__content:nth-of-type(2n),
+.stories__content:nth-of-type(2n+1) {
+	padding: 7.06% 0 0 0;
+}
+.stories__content:nth-of-type(2n) {
+	padding: 7.06% 0 0 0;
+}
+.stories__text {
+	width: 32.66%;
+	float: left;
+	margin: 0 0 0 3.51%;
+}
+.stories__content:nth-of-type(2n) .stories__text {
+	float: right;
+	margin: 0 3.51% 0 0;
+}
+.stories__text h5,
+.stories__text h6 {
+	text-align: right;
+	color: #222;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+}
+.stories__text h5 {
+	text-transform: uppercase;
+}
+.stories__content:nth-of-type(2n) .stories__text h5,
+.stories__content:nth-of-type(2n) .stories__text h6,
+.stories__content:nth-of-type(2n) .stories__text p {
+	text-align: left;
+}
+.stories__text p {
+	padding: 3.8% 0;
+	text-align: right;
+	color: #777;
+	font-family: RobotoSlab;
+	font-size: 14px;
+	font-weight: 400;
+}
+.stories__img {
+    width: 19.36%;
+    float: left;
+    margin: 0 4.15%;
+}
+.stories__content:nth-of-type(2n) .stories__img {
+	float: right;
+}
+.stories__continue {
+	width: 19.36%;
+    margin: 0 auto;
+}
 
 
 
+/* ::after {
+	content: "";
+	width: 2px;
+	height: 100%;
+	background: #000;
+	
+} example for vertical-img line */
 
+
+/*TEAM*/
 .team {
 	background-color: #f9f9f9;
 	text-align: center;
-	padding-top: 120px;
+	padding-top: 102.5px;
 }
 .team__photo {
 	margin: 76px 0 26px 0;
 }
 .team__photo__item {
-	position: relative;
 	width: 23%;
 	float: left;
 	margin: 5% ;
@@ -291,13 +367,15 @@ h3 {
 	text-align: center;
 }
 .social__icon img {
-	width: 20px;
+	width: 34px;
 	border: 3px solid #222;
 	border-radius: 100%;
-	padding: 7px;
-	margin-right: 5px;
+/* 	padding: 5px;
+ */	margin-right: 5px;
 	margin-left: 5px;
 }
+
+
 .team__text {
 	width: 600px;
 	margin: 0 auto;
@@ -321,11 +399,12 @@ h3 {
     margin: 0 1rem 1rem 0;
 }
 
+/*CONTACT*/
 .contact {
 	height: 676px;
 	background-color: #222;
 	text-align: center;
-	padding-top: 120px;
+	padding-top: 102.5px;
 }
 .contact__top {
 	position: absolute;
@@ -353,7 +432,8 @@ h3 {
 	margin-top: 75px;
 }
 .contact__form__col1 {
-	width: 50%;
+	width: 48%;
+	margin-right: 2%;
 	float: left;
 }
 .contact__form__col2 {
@@ -361,16 +441,16 @@ h3 {
 	float: left;
  }
  #contact__form__col1__item {
-	width: 437px;
-	height: 50px;
+/* 	width: 437px;
+ */	height: 50px;
 	background-color: white;
 	border: 1px solid #ccc;
 	border-radius: 1px;
 	margin:0 30px 30px 0;
 }
  #contact__form__col2__item {
-	width: 437px;
-	height: 214px;
+/* 	width: 437px;
+ */	height: 214px;
 	background-color: white;
 	border: 1px solid #ccc;
 	border-radius: 1px;
@@ -390,14 +470,22 @@ input {
 	text-transform: uppercase;
 	padding-left: 20px;	
 }
-.button {
+.button input {
 	display: block;
 	margin: 0 auto;
 	text-align: center;
 	width: 240px;
+	height: 65px;
 	background-color: #fed136;
 	border-radius: 2px;
-
+	
+	color: white;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.button__text {
 	color: white;
 	font-family: Montserrat;
 	font-size: 18px;
@@ -417,11 +505,11 @@ input {
 	padding-top: 25px;
 }
 .social-item {
-	width: 20px;
+	width: 40px;
 	background-color: #222;
 	border-radius: 100%;
-	padding: 10px;
-	margin: 5px;
+/* 	padding: 10px;
+ */	margin: 5px;
 }
 .footer {
 	position: absolute;
