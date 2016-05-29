@@ -427,3 +427,13 @@ input {
 	position: absolute;
 	padding-top: 45px;
 }
+
+/* 
+@media screen and (max-width: 768px) {
+	.stories__text {
+    width: 75%;
+    }
+    .stories__img {
+    width: 25%;
+}
+ */
