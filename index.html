@@ -6,17 +6,11 @@
     <meta name="viewport" content="width=device-width; initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
+
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
-
 	<link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
-    <link href= 'https://www.google.com/fonts#UsePlace:use/Collection:Droid+Serif:400italic' rel='stylesheet' type='text/css'>
-    <link href='https://www.google.com/fonts#UsePlace:use/Collection:Montserrat:700' rel='stylesheet' type='text/css'>
-    <link href='https://www.google.com/fonts#UsePlace:use/Collection:Roboto+Slab'rel='stylesheet' type='text/css'>
-
-<!-- 	<meta name="viewport" content="width=device-width; initial-scale=1.0">
- -->	
 </head>
 <body>
 	<section class="wrap">
@@ -138,11 +132,11 @@ aenean rhoncus posuere odio in tincidunt.</p>
 </section>
 <section class="about">
     <div class="about__us">
-        <div class="wrapper">
+        <div class="wrapper clearfix">
             <h2 class="title">About Us</h2>
             <h3 class="sub__title">Proin iaculis purus consequat sem cure.</h3>
             <ul class="stories clearfix">
-                <li class="stories__content" clearfix>
+                <li class="stories__content clearfix">
                     <div class="stories__text">
                         <h5>July 2010</h5>
                         <h6>Our Humble Beginnings</h6>
@@ -152,7 +146,7 @@ aenean rhoncus posuere odio in tincidunt.</p>
                         <img src="img/about_img_1.jpg" alt="image_not_found">
                     </figure>
                 </li>
-                <li class="stories__content" clearfix>
+                <li class="stories__content clearfix">
                     <div class="stories__text">
                         <h5>January 2011</h5>
                         <h6>Facing Startup Battles</h6>
@@ -167,7 +161,7 @@ aenean rhoncus posuere odio in tincidunt.</p>
                         <img src="img/about_img_2.jpg" alt="image_not_found">
                     </figure>
                 </li>
-                <li class="stories__content" clearfix>
+                <li class="stories__content clearfix">
                     <div class="stories__text">
                         <h5>December 2012</h5>
                         <h6>Enter The Dark Days</h6>
@@ -180,7 +174,7 @@ aenean rhoncus posuere odio in tincidunt.</p>
                         <img src="img/about_img_3.jpg" alt="image_not_found">
                     </figure>
                 </li>
-                <li class="stories__content" clearfix>
+                <li class="stories__content clearfix">
                     <div class="stories__text">
                         <h5>February 2014</h5>
                         <h6>Our Triumph</h6>
@@ -194,14 +188,15 @@ aenean rhoncus posuere odio in tincidunt.</p>
                         <img src="img/about_img_4.jpg" alt="image_not_found">
                     </figure>
                 </li>
-                <li class="stories__content" clearfix>
+                <li class="stories__content clearfix">
                     <div class="stories__continue">
-                        <figure class="stories__img_fon">
+                        <figure>
                             <img src="img/our_story_fon.jpg" alt="image_not_found">
+                            <p>Our Story Continue ...</p>
                         </figure>
                     </div>
                 </li>
-            </ul>   
+            </ul>
         </div>
     </div>
 </section>
@@ -261,15 +256,15 @@ aenean rhoncus posuere odio in tincidunt.</p>
 				<h3>Proin iaculis purus consequat sem cure</h3>
 				<div class="contact__form clearfix">
 					<div class="contact__form__col1">
-						<input type="text" name="your Name *" placeholder="your Name *" id="contact__form__col1__item">
-						<input type="text" name="your Name *" placeholder="your Name *" id="contact__form__col1__item" >
-						<input type="text" name="your Name *" placeholder="your Name *" id="contact__form__col1__item">
+						<input type="text" name="name" placeholder="your Name *" id="contact__form__col1__item">
+						<input type="email" name="email" placeholder="your e-mail *" id="contact__form__col1__item" >
+						<input type="text" name="your Name *" placeholder="subject*" id="contact__form__col1__item">
 					</div>
 					<div class="contact__form__col2">
-						<input type="text" name="your Name *" placeholder="your Name *" id="contact__form__col2__item">
+						<textarea name="content" id="" placeholder="Your message *" style="overflow: hidden; word-wrap: break-word; height: 200px;"></textarea>
 					</div>
 				</div>
-				<div class="button"> <input class="button__text" type="submit" name="Send Message" value="Send Message"><!-- <p>Send Message</p> --></div>
+				<div class="button"> <input class="button__text" type="submit" name="Send Message" value="Send Message"></div>
 			</div>
 		</div>
 		<img class="contact__map" src="img/map-image.png" alt="">
