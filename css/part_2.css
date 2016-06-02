@@ -1,5 +1,6 @@
 .portfolio {
 	background: #f7f7f7;
+	padding: 120px 0;
 }
 .title {
 	color: #222;
@@ -19,19 +20,16 @@
 	line-height: inherit;
 	padding: 1.55% 0 6.56% 0;
 }
-.container {
-	padding: 9% 17%;
-}
 .gallery {
+}
+.gallery ul {
+	list-style-type: none;
 	margin: 0 -2.1%;
 }
-ul {
-	list-style-type: none;
-}
-li {
+.gallery li {
 	display: list-item;
 }
-img {
+.gallery img {
 	width: 100%;
 }
 .gallery__item {
@@ -65,9 +63,9 @@ img {
 }
 .about {
 	background: #FFF;
+	padding: 120px 0;
 }
 .about__us {
-	margin: 0 -2%;
 }
 .stories {
 	margin: 0 auto;
@@ -128,6 +126,7 @@ img {
 .stories__continue {
 	width: 19.36%;
     margin: 0 auto;
+    min-height: 182px;
 }
 .stories__continue p {
 	margin: -74.17% 21.42% 0 19.78%;

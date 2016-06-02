@@ -129,9 +129,11 @@ h3 {
 	padding-left: 30px;
 }
 
+/* Portfolio */
+
 .portfolio {
-	padding: 9% 17%;
 	background: #f7f7f7;
+	padding: 120px 0;
 }
 .title {
 	color: #222;
@@ -150,15 +152,12 @@ h3 {
 	text-align: center;
 	line-height: inherit;
 	padding: 1.55% 0 6.56% 0;
-}/* 
-.wrapper {
-	padding: 9% 17%;
-} */
+}
 .gallery {
-	margin: 0 -2.1%;
 }
 .gallery ul {
 	list-style-type: none;
+	margin: 0 -2.1%;
 }
 .gallery li {
 	display: list-item;
@@ -195,12 +194,13 @@ h3 {
 }
 .gallery__item__text {
 }
+
+/* About */
 .about {
-	padding: 9% 17%;
 	background: #FFF;
+	padding: 120px 0;
 }
 .about__us {
-	margin: 0 -2%;
 }
 .stories {
 	margin: 0 auto;
@@ -261,6 +261,7 @@ h3 {
 .stories__continue {
 	width: 19.36%;
     margin: 0 auto;
+    min-height: 182px;
 }
 .stories__continue p {
 	margin: -74.17% 21.42% 0 19.78%;
